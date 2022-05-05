@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EditApp.h" />
+    <ClInclude Include="Glyphs\Array.h" />
+    <ClInclude Include="Glyphs\BackspaceCommand.h" />
+    <ClInclude Include="Glyphs\BingSearchCommand.h" />
+    <ClInclude Include="Glyphs\Caret.h" />
+    <ClInclude Include="Glyphs\CaretController.h" />
+    <ClInclude Include="Glyphs\CharacterCommand.h" />
+    <ClInclude Include="Glyphs\Clipboard.h" />
+    <ClInclude Include="Glyphs\Command.h" />
+    <ClInclude Include="Glyphs\CommandFactory.h" />
+    <ClInclude Include="Glyphs\CommandHistory.h" />
+    <ClInclude Include="Glyphs\CommandStack.h" />
+    <ClInclude Include="Glyphs\Composite.h" />
+    <ClInclude Include="Glyphs\CopyCommand.h" />
+    <ClInclude Include="Glyphs\CutCommand.h" />
+    <ClInclude Include="Glyphs\DateCommand.h" />
+    <ClInclude Include="Glyphs\DeleteCommand.h" />
+    <ClInclude Include="Glyphs\DoubleByteLetter.h" />
+    <ClInclude Include="Glyphs\DummyRow.h" />
+    <ClInclude Include="Glyphs\EditCommand.h" />
+    <ClInclude Include="Glyphs\GlyphSubject.h" />
+    <ClInclude Include="Glyphs\File.h" />
+    <ClInclude Include="Glyphs\FindCommand.h" />
+    <ClInclude Include="Glyphs\FindNextCommand.h" />
+    <ClInclude Include="Glyphs\FindPreviousCommand.h" />
+    <ClInclude Include="Glyphs\FindReplaceDialog.h" />
+    <ClInclude Include="Glyphs\Font.h" />
+    <ClInclude Include="Glyphs\Glyph.h" />
+    <ClInclude Include="Glyphs\GlyphDatas.h" />
+    <ClInclude Include="Glyphs\GlyphDirector.h" />
+    <ClInclude Include="Glyphs\GlyphExtent.h" />
+    <ClInclude Include="Glyphs\GlyphFactory.h" />
+    <ClInclude Include="Glyphs\GlyphState.h" />
+    <ClInclude Include="Glyphs\GlyphVisitors.h" />
+    <ClInclude Include="Glyphs\GoToLineCommand.h" />
+    <ClInclude Include="Glyphs\GoToLineDialog.h" />
+    <ClInclude Include="Glyphs\ImeCharacterCommand.h" />
+    <ClInclude Include="Glyphs\KeyActions.h" />
+    <ClInclude Include="Glyphs\Letter.h" />
+    <ClInclude Include="Glyphs\Note.h" />
+    <ClInclude Include="Glyphs\GlyphPtr.h" />
+    <ClInclude Include="Glyphs\Observer.h" />
+    <ClInclude Include="Glyphs\PasteCommand.h" />
+    <ClInclude Include="Glyphs\RedoCommand.h" />
+    <ClInclude Include="Glyphs\ReplaceCommand.h" />
+    <ClInclude Include="Glyphs\ReplaceDialogCommand.h" />
+    <ClInclude Include="Glyphs\resource.h" />
+    <ClInclude Include="Glyphs\Row.h" />
+    <ClInclude Include="Glyphs\ScrollActions.h" />
+    <ClInclude Include="Glyphs\ScrollController.h" />
+    <ClInclude Include="Glyphs\Scrolls.h" />
+    <ClInclude Include="Glyphs\SelectAllCommand.h" />
+    <ClInclude Include="Glyphs\SingleByteLetter.h" />
+    <ClInclude Include="Glyphs\Stack.h" />
+    <ClInclude Include="Glyphs\State.h" />
+    <ClInclude Include="Glyphs\Subject.h" />
+    <ClInclude Include="Glyphs\UndoCommand.h" />
+    <ClInclude Include="Glyphs\WrapCommand.h" />
+    <ClInclude Include="Glyphs\WrapLineCommand.h" />
+    <ClInclude Include="Glyphs\WriteCommand.h" />
+    <ClInclude Include="TestForm.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EditApp.cpp" />
+    <ClCompile Include="Glyphs\BackspaceCommand.cpp" />
+    <ClCompile Include="Glyphs\BingSearchCommand.cpp" />
+    <ClCompile Include="Glyphs\Caret.cpp" />
+    <ClCompile Include="Glyphs\CaretController.cpp" />
+    <ClCompile Include="Glyphs\CharacterCommand.cpp" />
+    <ClCompile Include="Glyphs\Clipboard.cpp" />
+    <ClCompile Include="Glyphs\Command.cpp" />
+    <ClCompile Include="Glyphs\CommandFactory.cpp" />
+    <ClCompile Include="Glyphs\CommandHistory.cpp" />
+    <ClCompile Include="Glyphs\CommandStack.cpp" />
+    <ClCompile Include="Glyphs\Composite.cpp" />
+    <ClCompile Include="Glyphs\CopyCommand.cpp" />
+    <ClCompile Include="Glyphs\CutCommand.cpp" />
+    <ClCompile Include="Glyphs\DateCommand.cpp" />
+    <ClCompile Include="Glyphs\DeleteCommand.cpp" />
+    <ClCompile Include="Glyphs\DoubleByteLetter.cpp" />
+    <ClCompile Include="Glyphs\DummyRow.cpp" />
+    <ClCompile Include="Glyphs\EditCommand.cpp" />
+    <ClCompile Include="Glyphs\GlyphSubject.cpp" />
+    <ClCompile Include="Glyphs\File.cpp" />
+    <ClCompile Include="Glyphs\FindCommand.cpp" />
+    <ClCompile Include="Glyphs\FindNextCommand.cpp" />
+    <ClCompile Include="Glyphs\FindPreviousCommand.cpp" />
+    <ClCompile Include="Glyphs\FindReplaceDialog.cpp" />
+    <ClCompile Include="Glyphs\Font.cpp" />
+    <ClCompile Include="Glyphs\Glyph.cpp" />
+    <ClCompile Include="Glyphs\GlyphDirector.cpp" />
+    <ClCompile Include="Glyphs\GlyphExtent.cpp" />
+    <ClCompile Include="Glyphs\GlyphFactory.cpp" />
+    <ClCompile Include="Glyphs\GlyphState.cpp" />
+    <ClCompile Include="Glyphs\GlyphVisitors.cpp" />
+    <ClCompile Include="Glyphs\GoToLineCommand.cpp" />
+    <ClCompile Include="Glyphs\GoToLineDialog.cpp" />
+    <ClCompile Include="Glyphs\ImeCharacterCommand.cpp" />
+    <ClCompile Include="Glyphs\KeyActions.cpp" />
+    <ClCompile Include="Glyphs\Letter.cpp" />
+    <ClCompile Include="Glyphs\Note.cpp" />
+    <ClCompile Include="Glyphs\GlyphPtr.cpp" />
+    <ClCompile Include="Glyphs\Observer.cpp" />
+    <ClCompile Include="Glyphs\PasteCommand.cpp" />
+    <ClCompile Include="Glyphs\RedoCommand.cpp" />
+    <ClCompile Include="Glyphs\ReplaceCommand.cpp" />
+    <ClCompile Include="Glyphs\ReplaceDialogCommand.cpp" />
+    <ClCompile Include="Glyphs\Row.cpp" />
+    <ClCompile Include="Glyphs\ScrollActions.cpp" />
+    <ClCompile Include="Glyphs\ScrollController.cpp" />
+    <ClCompile Include="Glyphs\Scrolls.cpp" />
+    <ClCompile Include="Glyphs\SelectAllCommand.cpp" />
+    <ClCompile Include="Glyphs\SingleByteLetter.cpp" />
+    <ClCompile Include="Glyphs\State.cpp" />
+    <ClCompile Include="Glyphs\Subject.cpp" />
+    <ClCompile Include="Glyphs\UndoCommand.cpp" />
+    <ClCompile Include="Glyphs\WrapCommand.cpp" />
+    <ClCompile Include="Glyphs\WrapLineCommand.cpp" />
+    <ClCompile Include="Glyphs\WriteCommand.cpp" />
+    <ClCompile Include="TestForm.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Glyphs\GlyphSubject.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="Glyphs\rt_manif.bin.exe.manifest" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{A7F4EB27-8FC0-4FF8-8877-72D8C8402285}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>EditForm</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

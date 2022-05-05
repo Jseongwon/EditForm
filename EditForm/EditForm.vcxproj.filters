@@ -1,0 +1,368 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="EditApp.h" />
+    <ClInclude Include="Glyphs\Array.h">
+      <Filter>Glyphs</Filter>
+    </ClInclude>
+    <ClInclude Include="Glyphs\BackspaceCommand.h">
+      <Filter>Glyphs</Filter>
+    </ClInclude>
+    <ClInclude Include="Glyphs\BingSearchCommand.h">
+      <Filter>Glyphs</Filter>
+    </ClInclude>
+    <ClInclude Include="Glyphs\Caret.h">
+      <Filter>Glyphs</Filter>
+    </ClInclude>
+    <ClInclude Include="Glyphs\CaretController.h">
+      <Filter>Glyphs</Filter>
+    </ClInclude>
+    <ClInclude Include="Glyphs\CharacterCommand.h">
+      <Filter>Glyphs</Filter>
+    </ClInclude>
+    <ClInclude Include="Glyphs\Clipboard.h">
+      <Filter>Glyphs</Filter>
+    </ClInclude>
+    <ClInclude Include="Glyphs\Command.h">
+      <Filter>Glyphs</Filter>
+    </ClInclude>
+    <ClInclude Include="Glyphs\CommandFactory.h">
+      <Filter>Glyphs</Filter>
+    </ClInclude>
+    <ClInclude Include="Glyphs\CommandHistory.h">
+      <Filter>Glyphs</Filter>
+    </ClInclude>
+    <ClInclude Include="Glyphs\CommandStack.h">
+      <Filter>Glyphs</Filter>
+    </ClInclude>
+    <ClInclude Include="Glyphs\Composite.h">
+      <Filter>Glyphs</Filter>
+    </ClInclude>
+    <ClInclude Include="Glyphs\CopyCommand.h">
+      <Filter>Glyphs</Filter>
+    </ClInclude>
+    <ClInclude Include="Glyphs\CutCommand.h">
+      <Filter>Glyphs</Filter>
+    </ClInclude>
+    <ClInclude Include="Glyphs\DateCommand.h">
+      <Filter>Glyphs</Filter>
+    </ClInclude>
+    <ClInclude Include="Glyphs\DeleteCommand.h">
+      <Filter>Glyphs</Filter>
+    </ClInclude>
+    <ClInclude Include="Glyphs\DoubleByteLetter.h">
+      <Filter>Glyphs</Filter>
+    </ClInclude>
+    <ClInclude Include="Glyphs\DummyRow.h">
+      <Filter>Glyphs</Filter>
+    </ClInclude>
+    <ClInclude Include="Glyphs\EditCommand.h">
+      <Filter>Glyphs</Filter>
+    </ClInclude>
+    <ClInclude Include="Glyphs\File.h">
+      <Filter>Glyphs</Filter>
+    </ClInclude>
+    <ClInclude Include="Glyphs\FindCommand.h">
+      <Filter>Glyphs</Filter>
+    </ClInclude>
+    <ClInclude Include="Glyphs\FindNextCommand.h">
+      <Filter>Glyphs</Filter>
+    </ClInclude>
+    <ClInclude Include="Glyphs\FindPreviousCommand.h">
+      <Filter>Glyphs</Filter>
+    </ClInclude>
+    <ClInclude Include="Glyphs\FindReplaceDialog.h">
+      <Filter>Glyphs</Filter>
+    </ClInclude>
+    <ClInclude Include="Glyphs\Font.h">
+      <Filter>Glyphs</Filter>
+    </ClInclude>
+    <ClInclude Include="Glyphs\Glyph.h">
+      <Filter>Glyphs</Filter>
+    </ClInclude>
+    <ClInclude Include="Glyphs\GlyphDatas.h">
+      <Filter>Glyphs</Filter>
+    </ClInclude>
+    <ClInclude Include="Glyphs\GlyphExtent.h">
+      <Filter>Glyphs</Filter>
+    </ClInclude>
+    <ClInclude Include="Glyphs\GlyphFactory.h">
+      <Filter>Glyphs</Filter>
+    </ClInclude>
+    <ClInclude Include="Glyphs\GlyphVisitors.h">
+      <Filter>Glyphs</Filter>
+    </ClInclude>
+    <ClInclude Include="Glyphs\GoToLineCommand.h">
+      <Filter>Glyphs</Filter>
+    </ClInclude>
+    <ClInclude Include="Glyphs\GoToLineDialog.h">
+      <Filter>Glyphs</Filter>
+    </ClInclude>
+    <ClInclude Include="Glyphs\ImeCharacterCommand.h">
+      <Filter>Glyphs</Filter>
+    </ClInclude>
+    <ClInclude Include="Glyphs\KeyActions.h">
+      <Filter>Glyphs</Filter>
+    </ClInclude>
+    <ClInclude Include="Glyphs\Letter.h">
+      <Filter>Glyphs</Filter>
+    </ClInclude>
+    <ClInclude Include="Glyphs\Note.h">
+      <Filter>Glyphs</Filter>
+    </ClInclude>
+    <ClInclude Include="Glyphs\Observer.h">
+      <Filter>Glyphs</Filter>
+    </ClInclude>
+    <ClInclude Include="Glyphs\PasteCommand.h">
+      <Filter>Glyphs</Filter>
+    </ClInclude>
+    <ClInclude Include="Glyphs\RedoCommand.h">
+      <Filter>Glyphs</Filter>
+    </ClInclude>
+    <ClInclude Include="Glyphs\ReplaceCommand.h">
+      <Filter>Glyphs</Filter>
+    </ClInclude>
+    <ClInclude Include="Glyphs\ReplaceDialogCommand.h">
+      <Filter>Glyphs</Filter>
+    </ClInclude>
+    <ClInclude Include="Glyphs\resource.h">
+      <Filter>Glyphs</Filter>
+    </ClInclude>
+    <ClInclude Include="Glyphs\Row.h">
+      <Filter>Glyphs</Filter>
+    </ClInclude>
+    <ClInclude Include="Glyphs\ScrollActions.h">
+      <Filter>Glyphs</Filter>
+    </ClInclude>
+    <ClInclude Include="Glyphs\ScrollController.h">
+      <Filter>Glyphs</Filter>
+    </ClInclude>
+    <ClInclude Include="Glyphs\Scrolls.h">
+      <Filter>Glyphs</Filter>
+    </ClInclude>
+    <ClInclude Include="Glyphs\SelectAllCommand.h">
+      <Filter>Glyphs</Filter>
+    </ClInclude>
+    <ClInclude Include="Glyphs\SingleByteLetter.h">
+      <Filter>Glyphs</Filter>
+    </ClInclude>
+    <ClInclude Include="Glyphs\Stack.h">
+      <Filter>Glyphs</Filter>
+    </ClInclude>
+    <ClInclude Include="Glyphs\State.h">
+      <Filter>Glyphs</Filter>
+    </ClInclude>
+    <ClInclude Include="Glyphs\Subject.h">
+      <Filter>Glyphs</Filter>
+    </ClInclude>
+    <ClInclude Include="Glyphs\UndoCommand.h">
+      <Filter>Glyphs</Filter>
+    </ClInclude>
+    <ClInclude Include="Glyphs\WrapCommand.h">
+      <Filter>Glyphs</Filter>
+    </ClInclude>
+    <ClInclude Include="Glyphs\WrapLineCommand.h">
+      <Filter>Glyphs</Filter>
+    </ClInclude>
+    <ClInclude Include="Glyphs\WriteCommand.h">
+      <Filter>Glyphs</Filter>
+    </ClInclude>
+    <ClInclude Include="TestForm.h" />
+    <ClInclude Include="Glyphs\GlyphDirector.h">
+      <Filter>Glyphs</Filter>
+    </ClInclude>
+    <ClInclude Include="Glyphs\GlyphPtr.h">
+      <Filter>Glyphs</Filter>
+    </ClInclude>
+    <ClInclude Include="Glyphs\GlyphState.h">
+      <Filter>Glyphs</Filter>
+    </ClInclude>
+    <ClInclude Include="Glyphs\GlyphSubject.h">
+      <Filter>Glyphs</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EditApp.cpp" />
+    <ClCompile Include="Glyphs\BackspaceCommand.cpp">
+      <Filter>Glyphs</Filter>
+    </ClCompile>
+    <ClCompile Include="Glyphs\BingSearchCommand.cpp">
+      <Filter>Glyphs</Filter>
+    </ClCompile>
+    <ClCompile Include="Glyphs\Caret.cpp">
+      <Filter>Glyphs</Filter>
+    </ClCompile>
+    <ClCompile Include="Glyphs\CaretController.cpp">
+      <Filter>Glyphs</Filter>
+    </ClCompile>
+    <ClCompile Include="Glyphs\CharacterCommand.cpp">
+      <Filter>Glyphs</Filter>
+    </ClCompile>
+    <ClCompile Include="Glyphs\Clipboard.cpp">
+      <Filter>Glyphs</Filter>
+    </ClCompile>
+    <ClCompile Include="Glyphs\Command.cpp">
+      <Filter>Glyphs</Filter>
+    </ClCompile>
+    <ClCompile Include="Glyphs\CommandFactory.cpp">
+      <Filter>Glyphs</Filter>
+    </ClCompile>
+    <ClCompile Include="Glyphs\CommandHistory.cpp">
+      <Filter>Glyphs</Filter>
+    </ClCompile>
+    <ClCompile Include="Glyphs\CommandStack.cpp">
+      <Filter>Glyphs</Filter>
+    </ClCompile>
+    <ClCompile Include="Glyphs\Composite.cpp">
+      <Filter>Glyphs</Filter>
+    </ClCompile>
+    <ClCompile Include="Glyphs\CopyCommand.cpp">
+      <Filter>Glyphs</Filter>
+    </ClCompile>
+    <ClCompile Include="Glyphs\CutCommand.cpp">
+      <Filter>Glyphs</Filter>
+    </ClCompile>
+    <ClCompile Include="Glyphs\DateCommand.cpp">
+      <Filter>Glyphs</Filter>
+    </ClCompile>
+    <ClCompile Include="Glyphs\DeleteCommand.cpp">
+      <Filter>Glyphs</Filter>
+    </ClCompile>
+    <ClCompile Include="Glyphs\DoubleByteLetter.cpp">
+      <Filter>Glyphs</Filter>
+    </ClCompile>
+    <ClCompile Include="Glyphs\DummyRow.cpp">
+      <Filter>Glyphs</Filter>
+    </ClCompile>
+    <ClCompile Include="Glyphs\EditCommand.cpp">
+      <Filter>Glyphs</Filter>
+    </ClCompile>
+    <ClCompile Include="Glyphs\File.cpp">
+      <Filter>Glyphs</Filter>
+    </ClCompile>
+    <ClCompile Include="Glyphs\FindCommand.cpp">
+      <Filter>Glyphs</Filter>
+    </ClCompile>
+    <ClCompile Include="Glyphs\FindNextCommand.cpp">
+      <Filter>Glyphs</Filter>
+    </ClCompile>
+    <ClCompile Include="Glyphs\FindPreviousCommand.cpp">
+      <Filter>Glyphs</Filter>
+    </ClCompile>
+    <ClCompile Include="Glyphs\FindReplaceDialog.cpp">
+      <Filter>Glyphs</Filter>
+    </ClCompile>
+    <ClCompile Include="Glyphs\Font.cpp">
+      <Filter>Glyphs</Filter>
+    </ClCompile>
+    <ClCompile Include="Glyphs\Glyph.cpp">
+      <Filter>Glyphs</Filter>
+    </ClCompile>
+    <ClCompile Include="Glyphs\GlyphExtent.cpp">
+      <Filter>Glyphs</Filter>
+    </ClCompile>
+    <ClCompile Include="Glyphs\GlyphFactory.cpp">
+      <Filter>Glyphs</Filter>
+    </ClCompile>
+    <ClCompile Include="Glyphs\GlyphVisitors.cpp">
+      <Filter>Glyphs</Filter>
+    </ClCompile>
+    <ClCompile Include="Glyphs\GoToLineCommand.cpp">
+      <Filter>Glyphs</Filter>
+    </ClCompile>
+    <ClCompile Include="Glyphs\GoToLineDialog.cpp">
+      <Filter>Glyphs</Filter>
+    </ClCompile>
+    <ClCompile Include="Glyphs\ImeCharacterCommand.cpp">
+      <Filter>Glyphs</Filter>
+    </ClCompile>
+    <ClCompile Include="Glyphs\KeyActions.cpp">
+      <Filter>Glyphs</Filter>
+    </ClCompile>
+    <ClCompile Include="Glyphs\Letter.cpp">
+      <Filter>Glyphs</Filter>
+    </ClCompile>
+    <ClCompile Include="Glyphs\Note.cpp">
+      <Filter>Glyphs</Filter>
+    </ClCompile>
+    <ClCompile Include="Glyphs\Observer.cpp">
+      <Filter>Glyphs</Filter>
+    </ClCompile>
+    <ClCompile Include="Glyphs\PasteCommand.cpp">
+      <Filter>Glyphs</Filter>
+    </ClCompile>
+    <ClCompile Include="Glyphs\RedoCommand.cpp">
+      <Filter>Glyphs</Filter>
+    </ClCompile>
+    <ClCompile Include="Glyphs\ReplaceCommand.cpp">
+      <Filter>Glyphs</Filter>
+    </ClCompile>
+    <ClCompile Include="Glyphs\ReplaceDialogCommand.cpp">
+      <Filter>Glyphs</Filter>
+    </ClCompile>
+    <ClCompile Include="Glyphs\Row.cpp">
+      <Filter>Glyphs</Filter>
+    </ClCompile>
+    <ClCompile Include="Glyphs\ScrollActions.cpp">
+      <Filter>Glyphs</Filter>
+    </ClCompile>
+    <ClCompile Include="Glyphs\ScrollController.cpp">
+      <Filter>Glyphs</Filter>
+    </ClCompile>
+    <ClCompile Include="Glyphs\Scrolls.cpp">
+      <Filter>Glyphs</Filter>
+    </ClCompile>
+    <ClCompile Include="Glyphs\SelectAllCommand.cpp">
+      <Filter>Glyphs</Filter>
+    </ClCompile>
+    <ClCompile Include="Glyphs\SingleByteLetter.cpp">
+      <Filter>Glyphs</Filter>
+    </ClCompile>
+    <ClCompile Include="Glyphs\State.cpp">
+      <Filter>Glyphs</Filter>
+    </ClCompile>
+    <ClCompile Include="Glyphs\Subject.cpp">
+      <Filter>Glyphs</Filter>
+    </ClCompile>
+    <ClCompile Include="Glyphs\UndoCommand.cpp">
+      <Filter>Glyphs</Filter>
+    </ClCompile>
+    <ClCompile Include="Glyphs\WrapCommand.cpp">
+      <Filter>Glyphs</Filter>
+    </ClCompile>
+    <ClCompile Include="Glyphs\WrapLineCommand.cpp">
+      <Filter>Glyphs</Filter>
+    </ClCompile>
+    <ClCompile Include="Glyphs\WriteCommand.cpp">
+      <Filter>Glyphs</Filter>
+    </ClCompile>
+    <ClCompile Include="TestForm.cpp" />
+    <ClCompile Include="Glyphs\GlyphDirector.cpp">
+      <Filter>Glyphs</Filter>
+    </ClCompile>
+    <ClCompile Include="Glyphs\GlyphPtr.cpp">
+      <Filter>Glyphs</Filter>
+    </ClCompile>
+    <ClCompile Include="Glyphs\GlyphState.cpp">
+      <Filter>Glyphs</Filter>
+    </ClCompile>
+    <ClCompile Include="Glyphs\GlyphSubject.cpp">
+      <Filter>Glyphs</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Glyphs">
+      <UniqueIdentifier>{a8cc5cef-4dfe-4fa9-ba1c-edb1c8378a5a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="Glyphs\rt_manif.bin.exe.manifest">
+      <Filter>Glyphs</Filter>
+    </Manifest>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Glyphs\GlyphSubject.rc">
+      <Filter>Glyphs</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
